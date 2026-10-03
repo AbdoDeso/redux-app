@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: '/redux-app/', // MUST be '/' for Vercel/Netlify. Remove any '/mobile-store-app/' setting.
+  base: '/',
 })
